@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Funnel+Display:wght@300..800&family=Jost:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    /* border: 1px solid goldenrod; */
+    padding: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+.main-box {
+    position: relative;
+    background-image: url("/image/1345189.jpeg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.main-box .sidebar_menu {
+    position: relative;
+    height: 100vh;
+    width: 280px;
+    background-color: rgba(255, 7, 7, 0.1);
+    box-shadow: 0 0 6px rgba(252, 1, 1, 0.1);
+}
+
+.sidebar_menu .sidebar_menu {
+    position: relative;
+}
+
+.sidebar_menu .logo {
+    background:rgba(255, 0, 0, 0.225);
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 0 6px rgba(252, 1, 1, 0.1);
+}
+
+.sidebar_menu .logo a{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    left: 5px;
+    line-height: 60px;
+    text-decoration: none;
+}
+
+.sidebar_menu .menu {
+    position: relative;
+    width: 100%;
+    top: 15px;
+}
+ 
+.sidebar_menu .menu li {
+    margin-top: 6px;
+    padding: 14px 20px;
+    transition: all 0.6s linear;
+}
+
+.sidebar_menu .menu i {
+    color: #fff;
+    font-size: 20px;
+    padding-right: 8px;
+}
+
+.sidebar_menu .menu a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.sidebar_menu .menu li:hover {
+    border-left: 1px solid #fff;
+    box-shadow: 0 0 4px rgb(255, 255, 255, 0.5);
+}
+
+.sidebar_menu .social_media {
+    position: relative;
+    left: 20%;
+    bottom: -20px;
+    transform: translateX(10%);
+    cursor: pointer;
+}
+
+.sidebar_menu .social_media i {
+    padding: 0 5px;
+    color: #ffffff;
+    opacity: 0.6;
+    font-size: 20px;
+    transition: all 0.2s linear;
+}
+
+.sidebar_menu .social_media i:hover {
+    opacity: 1;
+}
