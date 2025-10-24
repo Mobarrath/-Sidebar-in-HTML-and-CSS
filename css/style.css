@@ -27,10 +27,6 @@
     box-shadow: 0 0 6px rgba(252, 1, 1, 0.1);
 }
 
-.sidebar_menu .sidebar_menu {
-    position: relative;
-}
-
 .sidebar_menu .logo {
     background:rgba(255, 0, 0, 0.225);
     width: 100%;
