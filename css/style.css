@@ -10,7 +10,7 @@
 
 .main-box {
     position: relative;
-    background-image: url("/image/1345189.jpeg");
+    background-image: url("../image/1345189.jpeg");
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover;
@@ -121,7 +121,7 @@
     position: absolute;
     left: 345px;
     line-height: 95px;
-    opacity: 0;
+    opacity: 1;
     transition: all 0.6s linear;
 }
 
@@ -130,7 +130,12 @@
 }
 
 #check:checked ~.sidebar_menu {
+    transition: all 0.6s linear;
     left: 0;
+}
+
+#check:checked ~.btn_one i {
+    opacity: 0;
 }
 
 #check:checked ~.btn_two i {
